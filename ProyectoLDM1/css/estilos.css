@@ -1,0 +1,92 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background: url("https://www.semana.com/resizer/KqE37LL22aek8CxOWPl7gTJv9Ao=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/LVFY2J2MWRE3DPGCYPFMXN3UQI.jpg") center no-repeat;
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el cuerpo */
+    text-align: center;
+}
+
+/* Estilo para la cabecera */
+header {
+    background: rgba(208, 208, 208, 0.9);; /* Fondo gris claro */
+    padding: 10px;
+    border: grey; /* Borde negro */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 50%; /* Ancho del 50% del contenedor padre */
+    margin: 0 auto 20px; /* Centrar horizontalmente y dar un margen en la parte inferior */
+}
+
+/* Estilo para listas ordenadas */
+ol {
+    text-align: left; /* Alineación de texto a la izquierda */
+    font-size: 18px;
+}
+
+/* Estilo para párrafos */
+p {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif; /* Fuente Arial o sans-serif si Arial no está disponible */
+}
+
+/* Estilo para elementos de lista no ordenada */
+ul li {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    list-style: none; /* Quita los puntos de la lista */
+}
+
+/* Estilos para la sección 'contenido' en la página de inicio */
+.contenido {
+    background: rgba(208, 208, 208, 0.9); /* Fondo gris claro con opacidad */
+    padding: 10px;
+    border: grey;
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto; /* Centrar y dar margen */
+}
+
+.contenido h2 {
+    color: #0c0ce9; /* Color azul para los títulos h2 dentro de la sección 'contenido' */
+}
+
+/* Estilos para la sección de enlaces */
+.enlaces {
+    background: #ebe9e9; /* Fondo gris oscuro */
+    padding: 10px;
+}
+
+.titulo {
+    font-family: 'Arial', sans-serif;
+    color: #0273c9; /* Color azul para los títulos con clase 'titulo' */
+}
+
+/* Estilos para las secciones de recetas */
+.receta1, .receta2 {
+    padding: 10px;
+    margin-bottom: 20px;
+    border:  #6a6a6a; /* Borde gris para las secciones de recetas */
+    border-radius: 5px;
+}
+
+.videos {
+    width: 560px;
+    height: 315px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1300px) 
+{
+    .videos {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 1301px) 
+{
+    .videos {
+        width: 560px;
+        height: 315px;
+    }
+}
